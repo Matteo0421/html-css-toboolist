@@ -20,19 +20,27 @@ body{
   border-color: greenyellow; 
 }
 
+.entity-check #red{
+  color: red;
+  border-color: red;
+}
+
 .color-code{
   font-size: .6em;
   border: solid white;
   color: white;
-  background-color: #44AAEA;
   border-radius: 40%;
   width: 50px;
   height: 20px;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
+  background-color: #47ACF1;
 }
 
+ul{
+  list-style: none;
+}
 /* INIZIO HEADER */
 header{
   background-color: white;
@@ -83,6 +91,14 @@ main{
 
 #parte-centrale{
   margin-left: 40px;
+}
+
+.color-code .viola{
+  background-color: violet;
+}
+
+#viola{
+  background-color: violet;
 }
 /* .entity-verde{
   color: greenyellow;
