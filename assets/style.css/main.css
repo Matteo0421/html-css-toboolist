@@ -5,7 +5,7 @@
 }
 
 body{
-  max-width: 1800px;
+  
 }
 
 .button{
@@ -18,9 +18,13 @@ body{
   border: solid;
   color: greenyellow;
   border-color: greenyellow; 
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
 }
 
-.entity-check #red{
+.entity-check.red{
   color: red;
   border-color: red;
 }
@@ -29,17 +33,21 @@ body{
   font-size: .6em;
   border: solid white;
   color: white;
-  border-radius: 40%;
-  width: 50px;
-  height: 20px;
+  border-radius: 40px;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
   background-color: #47ACF1;
+  padding: 5px 20px;
 }
 
 ul{
   list-style: none;
+  margin-top: 30px;
+}
+
+li{
+  margin-top: 20px;
 }
 /* INIZIO HEADER */
 header{
@@ -66,8 +74,12 @@ main{
 
 .center-page{
   max-width: 800px;
-  margin-left: 300px;
+  height: 650px;
+  width: 800px;
+  margin: 0 auto;
   background-color: white;
+  padding: 10px;
+  border: solid white;
 }
 
 #header-center-page{
@@ -75,7 +87,9 @@ main{
   margin-left: 40px;
   border: solid white;
   border-bottom: 0;
-
+ 
+  
+  
   
 }
 
@@ -91,22 +105,33 @@ main{
 
 #parte-centrale{
   margin-left: 40px;
+  margin-top: 40px;
 }
 
 .color-code .viola{
   background-color: violet;
 }
 
-#viola{
+.color-code.viola{
   background-color: violet;
 }
-/* .entity-verde{
-  color: greenyellow;
-  border-color: greenyellow; 
+
+.color-code.verde{
+  background-color: green;
 }
 
-.entity-red{
-  color: red;
-  border-color: red;
-} */
+.color-code.arancione {
+  background-color: orange;
+}
+
+.color-code.rosa{
+  background-color: palevioletred;
+}
+.color-code.verde-chiaro{
+  background-color: greenyellow;
+}
+#parte-centrale h3{
+display: inline-block;
+}
+
 /* INIZIO main */
