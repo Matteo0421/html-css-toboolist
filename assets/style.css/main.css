@@ -5,12 +5,28 @@
 }
 
 body{
+  font-family: Arial, Helvetica, sans-serif;
   
 }
 
 .button{
-  border-radius: 20%;
-  border-color: #F7F8F9;
+  border-radius: 5px;
+  margin: auto;
+  padding: 5px 8px;
+  cursor: pointer;
+  font-size: .8rem;
+}
+
+#button-task{
+  background-color: #47ACF1;
+  color: white;
+  border: 1px solid #47ACF1;
+}
+
+#button-section{
+  background-color:#EAEAEA ;
+  color: #CCD1D7;
+  border: 1px solid #EAEAEA;
 }
 
 .entity-check{
@@ -41,75 +57,6 @@ body{
   padding: 5px 20px;
 }
 
-ul{
-  list-style: none;
-  margin-top: 30px;
-}
-
-li{
-  margin-top: 20px;
-}
-/* INIZIO HEADER */
-header{
-  background-color: white;
-}
-header h1{
-  color: black;
-  font-size: 3rem;
-  display: inline-block;
-  margin-top: 10px;
-}
-
-header img{
-  vertical-align: bottom;
-}
-/* /INIZIO HEADER */
-
-/* INIZIO main */
-
-main{
-  background-color: #F7F8F9;
-  padding-top:50px ;
-  padding-bottom: 50px;
-  
-}
-
-.center-page{
-  max-width: 800px;
-  height: 650px;
-  width: 800px;
-  margin: 0 auto;
-  background-color: white;
-  padding: 10px;
-  border: solid white;
-}
-
-#header-center-page{
-  border-radius: 10%;
-  margin-left: 40px;
-  border: solid white;
-  border-bottom: 0;
- 
-  
-  
-  
-}
-
-#button-task{
-  background-color: #47ACF1;
-  color: white;
-}
-
-#button-section{
-  background-color:#EAEAEA ;
-  color: #CCD1D7;
-}
-
-#parte-centrale{
-  margin-left: 40px;
-  margin-top: 40px;
-}
-
 .color-code .viola{
   background-color: violet;
 }
@@ -136,4 +83,70 @@ main{
 display: inline-block;
 }
 
+ul{
+  list-style: none;
+  margin-top: 30px;
+}
+
+li{
+  margin-top: 20px;
+}
+/* INIZIO HEADER */
+header{
+  background-color: white;
+  padding: 10px 20px;
+}
+header h1{
+  color: black;
+  font-size: 2.5rem;
+  display: inline-block; 
+  vertical-align: middle;
+}
+
+header img{
+  vertical-align: middle;
+}
+/* /INIZIO HEADER */
+
 /* INIZIO main */
+
+main{
+  background-color: #F7F8F9;
+  padding-top:50px ;
+  padding-bottom: 50px;
+  
+}
+
+.center-page{
+  max-width: 800px;
+  height: 650px;
+  width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 10px;
+  border: solid white;
+  border-radius: 5px;
+}
+
+#header-center-page{
+  margin-left: 40px;
+  border: solid white;
+  border-bottom: 2px;
+ 
+  
+  
+  
+}
+
+
+#parte-centrale{
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+
+
+/* INIZIO main */
+
+
+/* dal tag piu generale (tutti i th hsnno ls dtessa dimensione ) poi le classi generali (le classi dei bottoni o section ecc ) poi tutte le utility (backgroun blue ) poi le vari macrosezioni (header-main-ecc) dentro le vari macrosezioni seguo le indicazioni seguite all'inizio */
